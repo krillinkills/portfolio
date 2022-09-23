@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Space from './assets/bg.jpg';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -12,12 +13,13 @@ function App() {
       style={{ backgroundImage: `url(${Space})` }}
       className="w-full h-[100%]"
     >
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
-      <Contact />
+      <Contact /> */}
+      <Resume />
     </div>
   );
 }
